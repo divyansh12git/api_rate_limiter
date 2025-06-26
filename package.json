@@ -1,0 +1,28 @@
+{
+  "name": "api-rate-limiter",
+  "version": "1.0.0",
+  "description": "this is node server to expose limiter functions",
+  "main": "index.js",
+  "scripts": {
+    "dev": "tsc -b && node dist/index.js",
+    "build": "cmake-js compile",
+    "serve":"tsc -b && node dist/server.js"
+  },
+  "binary": {
+    "napi_version": [
+      9
+    ]
+  },
+  "author": "Divyansh Gupta",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^24.0.4",
+    "cmake-js": "^7.3.1",
+    "typescript": "^5.8.3"
+  },
+  "dependencies": {
+    "@types/express": "^5.0.3",
+    "express": "^5.1.0",
+    "node-addon-api": "^8.4.0"
+  }
+}

@@ -1,0 +1,35 @@
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+dist/
+build/
+.env
+
+# TypeScript
+*.tsbuildinfo
+*.d.ts
+*.map
+
+# CMake
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+build/
+*.cmake
+
+# VSCode settings
+.vscode/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Compiled addon files
+*.node
+
+# Logs
+logs/
+*.log
